@@ -9,12 +9,13 @@ import { config } from "@/config";
 
 export default function Home() {
   const [num, setNum] = useState(null);
-  const [isConfettiActive, setIsConfettiActive] = useState(false);
-  const HandleClik =()=>{
+  const [ConfettiActive, setConfettiActive] = useState(false);
+  
+  //aca se llama a la api 
+  const handleClik =()=>{
     getPost().then(data =>{
       setNum(data)
-      setIsConfettiActive(true)
-
+      setConfettiActive(true)
     })  
   }
   
@@ -25,7 +26,7 @@ export default function Home() {
         {num!== null&& (<p key={num} className={styles.number}>{num}</p>)}
         <div className={styles.ctas}>
           <button
-          onClick={HandleClik}
+          onClick={handleClik}
             className={styles.btnRuleta}
           >
             <Image
@@ -39,7 +40,7 @@ export default function Home() {
           </button>
 
         </div>
-        <Confetti active={isConfettiActive} config={config} />
+        <Confetti active={ConfettiActive} config={config} />
 
       </main>
       

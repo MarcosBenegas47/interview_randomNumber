@@ -1,3 +1,5 @@
+//aca pongo las configuraciones para los confetis
+
 export const config = {
     position: 'fixed', pointerEvents: 'none',
     angle: 90,
