@@ -18,7 +18,7 @@
 
 - Si el candidato tiene conocimientos de Docker, se puede agregar un `Dockerfile` para contenerizar la aplicación. :x:
 
-- Se valorará el uso de buenas prácticas en la estructura del código y manejo de errores. :x:
+- Se valorará el uso de buenas prácticas en la estructura del código y manejo de errores. 
 
 ### Instrucciones adicionales:
 
