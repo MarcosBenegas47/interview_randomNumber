@@ -1,7 +1,6 @@
 # Ruleta de Números Aleatorios
 
 
----
 **🎯objetivos**
 ### Enunciado del Examen:
 
