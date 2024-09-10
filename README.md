@@ -52,4 +52,4 @@ yarn dev
 Tiempo total: 1 hora y 40 minutos
 
 ### Observaciones
-El timestamp se muestra en la consola cuando se realiza una solicitud y además se especifica el método utilizado.
+El timestamp se muestra en la terminal cuando se realiza una solicitud y además se especifica el método utilizado.
