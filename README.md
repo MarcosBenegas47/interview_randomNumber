@@ -45,6 +45,7 @@ npm install
 npm run dev
 #o
 yarn dev
+```
 ---
 #### ⏱️ Duracion de la prueba
 
